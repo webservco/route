@@ -11,9 +11,7 @@ use WebServCo\Route\Contract\RouteConfigurationInterface;
  */
 final class RouteConfiguration implements RouteConfigurationInterface
 {
-    public function __construct(
-        public readonly string $controllerClass,
-        public readonly string $viewContainerFactoryClass,
-    ) {
+    public function __construct(public readonly string $controllerClass)
+    {
     }
 }
