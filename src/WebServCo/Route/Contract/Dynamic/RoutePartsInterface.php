@@ -6,5 +6,5 @@ namespace WebServCo\Route\Contract\Dynamic;
 
 interface RoutePartsInterface
 {
-    public const ROUTE_PART_TEMPLATE = 'routePart.%s';
+    public const ROUTE_PART_TEMPLATE = 'routePart.%d';
 }
