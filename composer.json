@@ -25,7 +25,7 @@
     "license" : "MIT",
     "name" : "webservco/route",
     "require": {
-        "php" : "^8.2",
+        "php" : "^8.3",
         "webservco/configuration": "^0"
     },
     "require-dev": {
